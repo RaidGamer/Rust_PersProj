@@ -1,0 +1,55 @@
+# ---------------------------------------
+# Rust / Cargo
+# ---------------------------------------
+
+# Ignore compiled files
+/target/
+
+# Cargo.lock
+# Keep this if you're making a library
+# Remove the "!" if you're making an application
+Cargo.lock
+
+# ---------------------------------------
+# Rustfmt / Clippy
+# ---------------------------------------
+rustfmt.toml
+.clippy.toml
+
+# ---------------------------------------
+# IDE / Editor files
+# ---------------------------------------
+
+# VS Code
+.vscode/
+
+# IntelliJ / RustRover
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# ---------------------------------------
+# OS files
+# ---------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------
+# Logs / Temp
+# ---------------------------------------
+*.log
+*.tmp
+
+# ---------------------------------------
+# Environment files
+# ---------------------------------------
+.env
+.env.*
