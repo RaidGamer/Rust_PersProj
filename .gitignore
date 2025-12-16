@@ -3,12 +3,11 @@
 # ---------------------------------------
 
 # Ignore compiled files
-/target/
+target/
 
 # Cargo.lock
 # Keep this if you're making a library
 # Remove the "!" if you're making an application
-Cargo.lock
 
 # ---------------------------------------
 # Rustfmt / Clippy
